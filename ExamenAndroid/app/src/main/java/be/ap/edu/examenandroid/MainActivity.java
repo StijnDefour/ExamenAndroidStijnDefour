@@ -104,10 +104,6 @@ public class MainActivity extends AppCompatActivity {
             json = new String(buffer,"UTF-8");
             jsonArray = new JSONArray(json);
 
-            /*for (int i = 0; i<jsonArray.length(); i++) {
-                JSONObject obj = jsonArray.getJSONObject(i);
-            }*/
-
         } catch (IOException e) {
             e.printStackTrace();
         } catch (JSONException e) {
